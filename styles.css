@@ -10,7 +10,7 @@ body {
 .header-bg {
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
