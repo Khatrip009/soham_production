@@ -69,9 +69,7 @@ body {
 .layer-1 {
   animation: floatLayer 7s ease-in-out infinite;
 }
-.layer-2 {
-  animation: floatLayer 5.5s ease-in-out infinite;
-}
+
 .layer-3 {
   animation: floatLayer 6.5s ease-in-out infinite;
 }
