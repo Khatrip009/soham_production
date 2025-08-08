@@ -6,12 +6,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #c9cbcf; /* Tailwind gray-100 */
 }
-header {
-  position: absolute;
-  top: 0;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
+
 .header-bg {
   margin: 0;
   padding: 0;
