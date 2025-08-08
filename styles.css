@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #c9cbcf; /* Tailwind gray-100 */
+}
+
+.header-bg {
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Optional overlay – adjust or remove */
+.header-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(216, 211, 211, 0); /* transparent now */
+  z-index: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #f59e0b; /* Tailwind amber-500 */
+}
+
+/* Hero Layers */
+.hero-layers {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 2 / 1;
+  margin: 40px auto 0;
+}
+
+.hero-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4,
+.layer-5, .layer-6, .layer-7, .layer-8 {
+  filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* Keyframes for floating animation */
+@keyframes floatLayer {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Animate all layers slightly differently for depth */
+.layer-0 {
+  animation: floatLayer 6s ease-in-out infinite;
+}
+.layer-1 {
+  animation: floatLayer 7s ease-in-out infinite;
+}
+.layer-2 {
+  animation: floatLayer 5.5s ease-in-out infinite;
+}
+.layer-3 {
+  animation: floatLayer 6.5s ease-in-out infinite;
+}
+.layer-4 {
+  animation: floatLayer 5s ease-in-out infinite;
+}
+.layer-5 {
+  animation: floatLayer 7.2s ease-in-out infinite;
+}
+.layer-6 {
+  animation: floatLayer 6.3s ease-in-out infinite;
+}
+.layer-7 {
+  animation: floatLayer 7s ease-in-out infinite;
+}
+.layer-8 {
+  animation: floatLayer 5.8s ease-in-out infinite;
+}
+
+/* Hero content on top of image */
+.hero-content {
+  text-align: center;
+  z-index: 100;
+  color: #06345a;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: #ffffff;
+  color: #39387C;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.hero-btn:hover {
+  background: #39387C;
+  color: #ffffff;
+}
+
+/* Responsive text and button */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+  .hero-content p {
+    font-size: 14px;
+  }
+  .hero-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Animated Wave Background */
+.hero-wave-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Multi-layer wave footer under hero section */
+.hero-wave-container1 {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  z-index: 0;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.product-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-back {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 16px;
+}
+
+.product-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.product-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  z-index: 5;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 4px;
+  color: #222;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 10px 10px;
+}

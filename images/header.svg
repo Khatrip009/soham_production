@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="158.75mm" height="62.9715mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 15875 6297.15"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:url(#id3)}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l0 6150.56c563.87,103.16 1200.18,276.54 2804.58,-12.23 1604.4,-288.77 4815.42,-2354.78 6561.67,-1640.41 1746.25,714.37 3703.59,1261.54 4841.87,502.7 1138.28,-758.84 1587.5,-1428.74 1666.88,-2630.69l0 -2369.93 -15875 0z"/>
+   </clipPath>
+    <clipPath id="id1">
+     <path d="M-0 0l0 6150.56c563.87,103.16 1200.18,276.54 2804.58,-12.23 1604.4,-288.77 4815.42,-2354.78 6561.67,-1640.41 1746.25,714.37 3703.59,1261.54 4841.87,502.7 1138.28,-758.84 1587.5,-1428.74 1666.88,-2630.69l0 -2369.93 -15875 0z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M-0 0l0 6150.56c563.87,103.16 1200.18,276.54 2804.58,-12.23 1604.4,-288.77 4815.42,-2354.78 6561.67,-1640.41 1746.25,714.37 3703.59,1261.54 4841.87,502.7 1138.28,-758.84 1587.5,-1428.74 1666.88,-2630.69l0 -2369.93 -15875 0z"/>
+    </clipPath>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="16530.87" y1="450.09" x2="-3963.16" y2="4754.65">
+   <stop offset="0" style="stop-opacity:1; stop-color:#545CA1"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#1D2569"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M-0 0l0 6150.56c563.87,103.16 1200.18,276.54 2804.58,-12.23 1604.4,-288.77 4815.42,-2354.78 6561.67,-1640.41 1746.25,714.37 3703.59,1261.54 4841.87,502.7 1138.28,-758.84 1587.5,-1428.74 1666.88,-2630.69l0 -2369.93 -15875 0z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2613378543792">
+   </g>
+   <g style="clip-path:url(#id1)">
+    <image x="-1164.51" y="-2178.71" width="18204.02" height="10654.58" xlink:href="header_Images\header_ImgID1.png"/>
+   </g>
+   <g style="clip-path:url(#id2)">
+   </g>
+  </g>
+  <path class="fil1" d="M-0 0l0 6150.56c563.87,103.16 1200.18,276.54 2804.58,-12.23 1604.4,-288.77 4815.42,-2354.78 6561.67,-1640.41 1746.25,714.37 3703.59,1261.54 4841.87,502.7 1138.28,-758.84 1587.5,-1428.74 1666.88,-2630.69l0 -2369.93 -15875 0z"/>
+ </g>
+</svg>
