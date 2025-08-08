@@ -15,7 +15,7 @@ header {
 .header-bg {
   margin: 0;
   padding: 0;
-  position: relative;
+  position: absolute;
   top: 0;
 }
 
