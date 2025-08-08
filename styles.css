@@ -13,10 +13,10 @@ header {
   padding-top: 0 !important;
 }
 .header-bg {
-  background-size: cover;
+  margin: 0;
+  padding: 0;
   position: relative;
-  height: 100vh;
-  overflow: hidden;
+  top: 0;
 }
 
 /* Optional overlay – adjust or remove */
